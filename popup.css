@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  width: 250px;
+  margin: 0;
+  padding: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+p {
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+
+#countdown {
+  font-size: 21px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #2154bd;
+  color: white;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button[data-running="true"] {
+  border-color: GrayText;
+  background: Canvas;
+  color: CanvasText;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
